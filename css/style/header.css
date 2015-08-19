@@ -1,0 +1,163 @@
+.header{
+    background: no-repeat url('../../img/background.jpg') center;
+    background-size: cover;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 90px;
+}
+
+.hgroup{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.header_h1{
+    font-size: 38px;
+    color: #2a6076;
+    line-height: 1;
+    font-weight: 700;
+    max-width: 320px;
+}
+
+.header_h2{
+    font-size: 24px;
+    margin-top: 10px;
+    max-width: 300px;
+    color: #8b3c07;
+    line-height: 1;
+}
+
+.description_text_header{
+    margin: 50px 0;
+    font-size: 20px;
+    margin-right: 30px;
+    line-height: 1;
+    max-width: 490px;
+}
+
+.subparagraph_two{
+    margin-top: 15px;
+}
+
+.color_turquoise{
+    color: #2a6076;
+}
+
+.color_oak{
+    color: #8b3c07;
+}
+
+.container_form{
+    clear: both;
+    margin-bottom: 90px;
+}
+
+.form_header{
+    font-size: 15px;
+}
+
+.left_column_form_header{
+    max-width: 230px;
+}
+
+.form input{
+    width: 100%;
+    color: #2e2e2e;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid #c7c7c3;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.form input:focus, .form textarea:focus{
+    border: 1px solid #a1a19d;
+}
+
+.form_header input, .form_header textarea{
+    margin: 8px 0;
+}
+
+.right_column_form_header{
+    max-width: 400px;
+}
+
+.right_column_form_header label, .right_column_form_header p{
+    margin-left: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    height: 149px;
+    color: #2e2e2e;
+    border: 1px solid #c7c7c3;
+    padding: 10px;
+    resize: none;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.comment_description{
+    font-size: 12px;
+}
+
+.column_form_submit{
+    margin-top: 12px;
+}
+
+.column_form_submit input{
+    margin: 0;
+}
+
+.form_submit{
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+
+    width: 100%;
+    background-color: #e76b18;
+    cursor: pointer;
+
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.form_submit:hover{
+    background-color: #f98717;
+}
+
+.form_submit:active{
+    padding: calc(12px + 1px) 15px calc(12px - 1px);
+}
+
+.container_show_offers{
+    text-align: center;
+    overflow: visible;
+}
+
+.show_offerse{
+    display: inline-block;
+    width: 161px;
+    padding-top: 44px;
+    padding-bottom: 2px;
+    background: no-repeat url('../../img/arrow_up.png') 0 5px;
+}
+
+.show_offerse_text{
+    font-size: 12px;
+    color: #2e2e2e;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}

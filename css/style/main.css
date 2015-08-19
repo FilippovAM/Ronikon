@@ -1,0 +1,348 @@
+.main_block_one{
+    background-color: #f5f5f5;
+}
+
+.main_block_two{
+    background-color: #d4d4d4;
+}
+
+.offerse_icons{
+    padding: 45px 60px 45px 80px;
+    display: table;
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.offerse_icons li{
+    text-align: center;
+    display: table-cell;
+}
+
+.offerse_icons li p{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 12px;
+    max-width: 85px;
+}
+
+.offerse_icons_figure{
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.alarm_clock, .warranty, .office, .percent{
+    background-color: #ff8d00;
+}
+
+.clock, .union, .mechanism, .fifteen{
+    background-color: #353535;
+}
+
+.offerse_icons_figure img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.flower, .clock_two{
+    background-color: #fa4d1e;
+}
+
+.main_block_example{
+    position: relative;
+}
+
+.container_line_example_text{
+    text-align: center;
+    position: relative;
+    padding: 0 30px;
+    margin: 0 35px;
+}
+
+.example_title{
+    display: inline-block;
+    padding: 50px 10px;
+    background-color: white;
+    text-transform: uppercase;
+    color: #3c505a;
+    font-size: 18px;
+    position: relative;
+    z-index: 10;
+}
+
+.container_line_example_text:before{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    vertical-align: middle;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #c3c3c3;
+}
+
+
+
+.container_furniture{
+    margin-bottom: 70px;
+    padding: 0 70px;
+}
+
+.container_furniture .col-sm-4{
+    padding: 0 30px;
+}
+
+.container_img{
+    position: relative;
+    overflow: hidden;
+}
+
+.container_img img{
+    opacity: 1;
+    width: 100%;
+    height: auto;
+
+    -webkit-transition: opacity 0.35s ease-in-out;
+    -moz-transition: opacity 0.35s ease-in-out;
+    -o-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+}
+
+
+.container_img img.container_img_two{
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container_img:hover .container_img_one{
+    opacity: 0;
+}
+
+.container_img:hover .container_img_two{
+    opacity: 1;
+}
+
+.furniture_tittle{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.furniture_tittle a{
+    position: relative;
+    color: #2a6076;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.furniture_tittle a:before{
+    position: absolute;
+    content: '';
+    right: -25px;
+    top: 40%;
+    height: 6px;
+    width: 14px;
+    background: no-repeat url('../../img/arrow_right.png') 0 0;
+    opacity: 1;
+
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.furniture_tittle a:hover:before{
+    opacity: 0;
+
+    -webkit-transform: translateX(30px);
+    -moz-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    transform: translateX(30px);
+}
+
+.furniture_description{
+    max-width: 170px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.furniture_description a{
+    color: #2d5c96;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.furniture_description a:hover{
+    text-decoration: underline;
+}
+
+.furniture_description small{
+    color: #888787;
+    font-size: 14px;
+}
+
+.example_furniture_read_more{
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: #f98b1e;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.example_furniture_read_more:active{
+    padding: calc(5px + 1px) 10px calc(5px - 1px);
+}
+
+.container_all_hits{
+    text-align: center;
+}
+
+.all_hits{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-size: 27px;
+    color: #fa4d1e;
+    border: 1px solid #f94c1e;
+    margin-top: 10px;
+}
+
+.all_hits:active{
+    box-shadow: inset 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container_idea{
+    padding: 40px;
+    width: 100%;
+    color: #1b0b0f;
+    background-color: #fa8c1e;
+    margin: 70px 0;
+}
+
+.container_idea_text{
+    display: inline-block;
+    text-align: right;
+    margin-left: 56px;
+}
+
+.idea_title{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.idea_text{
+    font-size: 24px;
+}
+
+.idea_calc{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 19px 10px 29px;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 35px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.idea_calc:active{
+    box-shadow: inset 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.idea_calc img{
+    float: left;
+    margin-right: 10px;
+}
+
+.calc_text{
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: -4px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.container_products_tv{
+    margin-bottom: 50px;
+}
+
+.products_tv_title{
+    font-size: 30px;
+    margin-left: 15px;
+    color: #7f7f7f;
+}
+
+.products_tv{
+    margin: 50px 0;
+    padding: 0 55px;
+}
+
+.products_tv div{
+    text-align: center;
+}
+
+.main_form_consultant{
+    background: no-repeat url('../../img/Tech_support.png') left;
+    height: 584px;
+    border: 1px solid transparent;
+}
+
+.main_form_consultant_border{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 65px;
+    max-width: 600px;
+    padding: 45px 55px;
+    color: #fa8c1e;
+    border: 1px solid #fa6c1e;
+}
+
+
+.main_form_consultant_title{
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 450px;
+    margin-bottom: 10px;
+}
+
+.right_column_main_form_consultant{
+    width: 230px;
+    margin-left: 25px;
+}
+
+.main_form_consultant_submit{
+    background-color: #fa8c1e;
+}
+
+.main_form_consultant_submit:hover{
+    background-color: #faa824;
+}
+
+.main_form_consultant .container_form{
+    margin: 0;
+}
+
+
+
+
+
+

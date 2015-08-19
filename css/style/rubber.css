@@ -1,0 +1,49 @@
+@media screen and (max-width: 1020px){
+    .container_idea_text{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .container_idea{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 980px){
+    .offerse_icons{
+        padding: 45px 0;
+    }
+
+    .container_furniture{
+        padding: 0;
+    }
+
+    .products_tv{
+        padding: 0;
+    }
+
+    .container_line_example_text{
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 865px){
+    .offerse_icons li p{
+        text-align: center;
+        display: block;
+        margin: 10px 20px 0 20px;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .wrapper{
+        display: none;
+    }
+    .wrapper_xs{
+        display: block;
+    }
+}
